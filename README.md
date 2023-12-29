@@ -9,7 +9,7 @@ python```
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
-```
+      ```
 
 ## Função criar_diretorios_e_graficos:
 * Esta função recebe a lista de arquivos e o mês escolhido pelo usuário.
