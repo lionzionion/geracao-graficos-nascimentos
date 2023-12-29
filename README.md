@@ -46,12 +46,15 @@ def criar_diretorios_e_graficos(arquivos, mes_escolhido):
             plt.savefig(os.path.join(diretorio, f"grafico_{mes}.png"))
             plt.close()
 ```
+
 ## Bloco Principal (if __name__ == "__main__":):
 * Lista os arquivos fornecidos.
 * Solicita ao usuário escolher o mês desejado.
 * Chama a função criar_diretorios_e_graficos com a lista de arquivos e o mês escolhido.
 
+
 python```
+
 if __name__ == "__main__":
     # Lista de arquivos fornecidos
     arquivos = [
