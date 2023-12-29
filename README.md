@@ -1,6 +1,6 @@
 # geracao-graficos-nascimentos
 
-python```
+python ```
 
 ## Importações de Bibliotecas:
 * os: Fornece uma maneira de interagir com o sistema operacional, utilizado para manipular diretórios e caminhos de arquivos.
@@ -79,7 +79,7 @@ if __name__ == "__main__":
     criar_diretorios_e_graficos(arquivos, mes_escolhido)
 
     print(f"Diretórios e gráficos para {mes_escolhido.upper()} gerados com sucesso!")
-```
+      ```
 
   
   
