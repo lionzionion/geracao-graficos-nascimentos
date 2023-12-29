@@ -5,11 +5,11 @@
 * pandas: Biblioteca para manipulação e análise de dados.
 * matplotlib.pyplot: Usado para criar visualizações, neste caso, gráficos.
   
-python```
+python ```
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
-      ```
+    ```
 
 ## Função criar_diretorios_e_graficos:
 * Esta função recebe a lista de arquivos e o mês escolhido pelo usuário.
