@@ -4,11 +4,13 @@
 * os: Fornece uma maneira de interagir com o sistema operacional, utilizado para manipular diretórios e caminhos de arquivos.
 * pandas: Biblioteca para manipulação e análise de dados.
 * matplotlib.pyplot: Usado para criar visualizações, neste caso, gráficos.
+  
 python```
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
 ```
+
 ## Função criar_diretorios_e_graficos:
 * Esta função recebe a lista de arquivos e o mês escolhido pelo usuário.
 * Itera sobre cada arquivo.
@@ -17,6 +19,7 @@ import matplotlib.pyplot as plt
 * Lê o arquivo CSV usando a biblioteca Pandas.
 * Cria um diretório usando o mês.
 * Gera um gráfico de barras empilhadas da distribuição de idades das mães e salva no diretório.
+
 
 python```
 def criar_diretorios_e_graficos(arquivos, mes_escolhido):
@@ -47,10 +50,12 @@ def criar_diretorios_e_graficos(arquivos, mes_escolhido):
             plt.close()
 ```
 
+
 ## Bloco Principal (if __name__ == "__main__":):
 * Lista os arquivos fornecidos.
 * Solicita ao usuário escolher o mês desejado.
 * Chama a função criar_diretorios_e_graficos com a lista de arquivos e o mês escolhido.
+
 
 
 python```
